@@ -1,8 +1,9 @@
 function fibonacci(num) {
+
 // your code here
 	int a = 0;
 	int b = 1;
-	if(num == 1){
+	if(num == 1 || num == 0){
 		return 0;
 	}else if(num == 2){
 		return 1;
@@ -14,6 +15,7 @@ function fibonacci(num) {
 		}
 		return b;
 	} 
-}
+}			
+
 
 module.exports = fibonacci;
